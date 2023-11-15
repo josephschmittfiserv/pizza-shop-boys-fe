@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import Home from './components/home';
+import Home from './components/Home';
 
-import Login from './components/login';
+import Login from './components/Login';
 
 import PizzaShopAdmin from './components/PizzaShopAdmin'
 

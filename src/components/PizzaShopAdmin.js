@@ -43,9 +43,6 @@ const PizzaShopAdmin = (props) => {
                 type="button"
                 onClick={onButtonClick}
                 value="Employee Information" />
-            {(loggedIn ? <div>
-                Your email address is {email}
-            </div> : <div/>)}
         </div>
 
         <div className={"buttonContainer"}>
@@ -54,9 +51,6 @@ const PizzaShopAdmin = (props) => {
                 type="button"
                 onClick={onButtonClick}
                 value="Weekly Statistics" />
-            {(loggedIn ? <div>
-                Your email address is {email}
-            </div> : <div/>)}
         </div>
 
         <div className={"buttonContainer"}>
@@ -65,9 +59,6 @@ const PizzaShopAdmin = (props) => {
                 type="button"
                 onClick={onButtonClick}
                 value="Start an order" />
-            {(loggedIn ? <div>
-                Your email address is {email}
-            </div> : <div/>)}
         </div>
 
     </div>
