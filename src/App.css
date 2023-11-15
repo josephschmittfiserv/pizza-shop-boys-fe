@@ -114,3 +114,51 @@
   padding-left: 8px;
 
 }
+
+.adminPageContainer {
+
+  flex-direction: column;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  height: 100vh;
+
+  background: pink;
+
+}
+
+.startOrderContainer {
+
+  flex-direction: column;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  height: 100vh;
+
+  background: pink;
+
+}
+
+.productsContainer {
+
+  flex-direction: column;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  height: 100vh;
+
+  background: pink;
+
+}

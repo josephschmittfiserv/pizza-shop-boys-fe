@@ -27,7 +27,7 @@ const PizzaShopAdmin = (props) => {
     }
 
 
-    return <div className="mainContainer">
+    return <div className="adminPageContainer">
 
         <div className={"titleContainer"}>
 

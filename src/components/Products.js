@@ -3,7 +3,7 @@ import React from "react"
 import { useNavigate } from "react-router-dom";
 
 
-const StartOrder = (props) => {
+const Products = (props) => {
 
     const { loggedIn, email } = props
 
@@ -28,11 +28,11 @@ const StartOrder = (props) => {
     }
 
 
-    return <div className="startOrderContainer">
+    return <div className="productsContainer">
 
         <div className={"titleContainer"}>
 
-            <div>PIZZA SHOP</div>
+            <div>Products</div>
 
         </div>
 
@@ -46,7 +46,7 @@ const StartOrder = (props) => {
 
                 onClick={onButtonClick}
 
-                value="Start Order" />
+                value="Done" />
 
             {(loggedIn ? <div>
 
@@ -63,4 +63,4 @@ const StartOrder = (props) => {
 }
 
 
-export default StartOrder
+export default Products
