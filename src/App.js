@@ -1,13 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-
 import Home from './components/Home';
-
 import Login from './components/Login';
-
 import PizzaShopAdmin from './components/PizzaShopAdmin'
-
+import StartOrder from './components/StartOrder';
 import './App.css';
-
 import { useEffect, useState } from 'react';
 
 
@@ -30,7 +26,9 @@ function App() {
 
           <Route path="/login" element={<Login setLoggedIn={setLoggedIn} setEmail={setEmail} />} />
 
-          <Route path="/PizzaShopAdmin" element={<PizzaShopAdmin setLoggedIn={setLoggedIn} setEmail={setEmail} />} />
+          <Route path="/pizzashopadmin" element={<PizzaShopAdmin setLoggedIn={setLoggedIn} setEmail={setEmail} />} />
+          
+          <Route path="/startorder" element={<StartOrder setLoggedIn={setLoggedIn} setEmail={setEmail} />} />
 
         </Routes>
 

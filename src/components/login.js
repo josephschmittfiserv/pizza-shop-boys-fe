@@ -37,7 +37,7 @@ const Login = (props) => {
             return
 
         } else {
-            navigate("/PizzaShopAdmin")
+            navigate("/pizzashopadmin")
         }
 
 

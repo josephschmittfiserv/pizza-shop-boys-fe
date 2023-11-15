@@ -3,7 +3,7 @@ import React from "react"
 import { useNavigate } from "react-router-dom";
 
 
-const Home = (props) => {
+const StartOrder = (props) => {
 
     const { loggedIn, email } = props
 
@@ -21,7 +21,7 @@ const Home = (props) => {
 
         } else {
 
-            navigate("/login")
+            navigate("/products")
 
         }
 
@@ -32,7 +32,7 @@ const Home = (props) => {
 
         <div className={"titleContainer"}>
 
-            <div>Welcome!</div>
+            <div>PIZZA SHOP</div>
 
         </div>
 
@@ -46,7 +46,7 @@ const Home = (props) => {
 
                 onClick={onButtonClick}
 
-                value={loggedIn ? "Log out" : "Log in"} />
+                value="Start Order" />
 
             {(loggedIn ? <div>
 
@@ -63,4 +63,4 @@ const Home = (props) => {
 }
 
 
-export default Home
+export default StartOrder

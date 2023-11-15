@@ -20,7 +20,7 @@ const PizzaShopAdmin = (props) => {
 
         } else {
 
-            navigate("/login")
+            navigate("/startorder")
 
         }
 
